@@ -3,8 +3,14 @@
 ssh-keygen -t rsa
 ```
 
-public key:~/.ssh/id_rsa.pub
-private key:~/.ssh/id_rsa
+public key:
+```
+~/.ssh/id_rsa.pub
+```
+private key:
+```
+~/.ssh/id_rsa
+```
 
 ##2. write public key in server
 ```
