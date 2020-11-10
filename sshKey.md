@@ -1,4 +1,4 @@
-##1. generate keys locally which can be used repeatedly
+### 1. generate keys locally which can be used repeatedly
 ```
 ssh-keygen -t rsa
 ```
@@ -12,7 +12,7 @@ private key:
 ~/.ssh/id_rsa
 ```
 
-##2. write public key in server
+### 2. write public key in server
 ```
 touch .ssh/authorized_keys
 chmod 700 .ssh
@@ -20,7 +20,7 @@ chmod 600 .ssh/authorized_keys
 cat id_rsa.pub >> .ssh/authorized_keys
 ```
 
-##3. config locally
+### 3. config locally
 ```
 vi ~/.ssh/config
 ```
